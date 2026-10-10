@@ -3,8 +3,8 @@ box-sizing: border-box;
 }
 
 body{
-    color:rgb(24, 6, 59);
-    background: white;
+    color: white;
+    background: rgb(24, 6, 59);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     line-height: 1.5;
@@ -38,4 +38,30 @@ body{
 .nav-link:focus{
     outline: 2px solid black;
     outline-offset: 2px;
+}
+
+.site-header{
+    padding: 16px 0;
+    border-bottom: 1px solid rgb(174, 166, 166);
+}
+
+.site-nav{
+    border-bottom: 1px solid rgb(174, 166, 166);
+}
+
+.site-main{
+    padding:24px 0;
+}
+
+.site-footer{
+    padding: 16px 0;
+    border-top: 1px solid rgb(174, 166, 166);
+}
+
+.section{
+    padding: 18px 0
+}
+
+.brand{
+    font-weight:700;
 }
