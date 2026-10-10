@@ -1,14 +1,19 @@
 * {
 box-sizing: border-box;
-
 }
 
 body{
-    color:azure;
-    background-color:rgb(18, 5, 79);
+    color:rgb(24, 6, 59);
+    background: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     line-height: 1.5;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
 }
 
 .nav-list{
