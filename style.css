@@ -1,4 +1,6 @@
 body{
+    color:azure;
+    background-color:rgb(18, 5, 79);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     line-height: 1.5;
@@ -10,5 +12,5 @@ body{
     gap: 12px;
     margin: 0;
     padding: 10px 16px;
-    
+
 }
