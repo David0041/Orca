@@ -12,5 +12,20 @@ body{
     gap: 12px;
     margin: 0;
     padding: 10px 16px;
+}
 
+.nav-link{
+    text-decoration: none;
+    color: inherit;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.nav-link:hover{
+    background: rgb(45, 15, 106);
+}
+
+.nav-link:focus{
+    outline: 2px solid black;
+    outline-offset: 2px;
 }
