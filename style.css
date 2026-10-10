@@ -65,3 +65,24 @@ body{
 .brand{
     font-weight:700;
 }
+
+h1, h2, h3{
+    line-height: 1.2;
+    margin: 0 0 8px 0;
+}
+
+p{
+    margin: 0;
+}
+
+.cards{
+    display: grid;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.card{
+    border: 1px solid rgb(174, 166, 166);
+    border-radius: 12px;
+    padding: 12px;
+}
