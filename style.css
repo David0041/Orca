@@ -98,3 +98,23 @@ p{
     height: auto;
     display: block; 
 }
+
+.hero{
+    display: grid;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.hero-card{
+    border: 1px solid rgb(126, 203, 254);
+    border-radius: 12px;
+    padding: 12px;
+    background:rgba(0, 106, 255, 0.521);
+    margin-top: 20px;
+}
+
+@media (min-with:700px){
+    .cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
